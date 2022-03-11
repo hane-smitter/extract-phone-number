@@ -1,0 +1,36 @@
+{
+  "name": "extract-phone-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "/build"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint --ignore-path .eslintignore",
+    "format": "prettier --ignore-path .gitignore --write \"src/**/*.ts\" \"src/**/*.js\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Zacky Aduoli",
+    "email": "hanesmitter3@gmail.com",
+    "url": "https://lookupzach.netlify.app"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-libphonenumber": "^7.4.23",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.9.49"
+  }
+}

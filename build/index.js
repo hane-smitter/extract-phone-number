@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ke = exports.name = void 0;
+const ke_1 = require("./countries/ke");
+Object.defineProperty(exports, "ke", { enumerable: true, get: function () { return ke_1.ke; } });
+// ke.isSafaricomOperator("+254  716 94 6646");
+console.log("saf operator", ke_1.ke.isSafaricomNetworkOperator("+254  716 94 6646"));
+const name = "mallow";
+exports.name = name;
+console.log("hey", name);
